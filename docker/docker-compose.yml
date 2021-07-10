@@ -1,0 +1,14 @@
+version: '3'
+services:
+  app:
+    build: ..
+    tty: true
+    environment:
+      RAILS_ENV: development
+      ADMIN_EMAIL: test
+      ADMIN_PASS: test
+    ports:
+      - '3331:3000'
+    volumes:
+      - ..:/work/myspace
+
