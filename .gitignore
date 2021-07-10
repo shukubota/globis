@@ -1,0 +1,9 @@
+.vagrant
+.mutagen
+.ssh
+.bash_history
+.bash_logout
+.profile
+.bashrc
+.cache
+myspace
